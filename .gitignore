@@ -1,0 +1,10 @@
+*.suo
+*.sdf
+*.opensdf
+*.ipch
+*.user
+*.opendb
+*/bin
+*/obj
+/Debug
+/packages

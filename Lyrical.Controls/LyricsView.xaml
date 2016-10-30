@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="Lyrical.Controls.LyricsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lyrical.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <Grid>
+        <Grid.Effect>
+            <DropShadowEffect Direction="270" RenderingBias="Quality" ShadowDepth="0" Opacity="0.7" BlurRadius="5"/>
+        </Grid.Effect>
+
+        <StackPanel HorizontalAlignment="Center" Width="Auto" UseLayoutRounding="True">
+            <StackPanel.Effect>
+                <DropShadowEffect Direction="270" ShadowDepth="0" RenderingBias="Quality" BlurRadius="5"/>
+            </StackPanel.Effect>
+
+            <StackPanel x:Name="PanelLyrics" Orientation="Horizontal" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TextLyrics" FontSize="22" FontWeight="Bold" Foreground="White" Visibility="Collapsed" HorizontalAlignment="Center"/>
+
+            <StackPanel x:Name="PanelPronounce" Orientation="Horizontal" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TextPronounce" FontSize="22" FontWeight="Bold" Foreground="White" Visibility="Collapsed" HorizontalAlignment="Center"/>
+
+            <StackPanel x:Name="PanelTranslation" Orientation="Horizontal" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TextTranslation" FontSize="22" FontWeight="Bold" Foreground="White" Visibility="Collapsed" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
