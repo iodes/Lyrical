@@ -1,5 +1,5 @@
 # Lyrical
-![Logo](https://user-images.githubusercontent.com/1563800/28198673-d349e066-689a-11e7-92d1-8797eb724e27.png)  
+![Logo](https://user-images.githubusercontent.com/1563800/28198878-2ab6a52c-689c-11e7-930d-2042dbb56fa6.png)  
 Synchronized Lyrics Library For .NET  
 고급 싱크 가사를 읽고 작성할 수 있는 통합 라이브러리를 제공합니다.
 
